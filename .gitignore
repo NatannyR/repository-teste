@@ -1,0 +1,25 @@
+# Arquivo .gitignore padrão para projetos gerais
+# Ignora arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignora pastas de dependências
+node_modules/
+
+# Ignora arquivos de log
+*.log
+
+# Ignora arquivos temporários
+*.tmp
+*.swp
+
+# Ignora arquivos de ambiente
+.env
+.env.*
+
+# Ignora diretórios de build
+/dist/
+/build/
+
+# Ignora arquivos do VSCode
+.vscode/
